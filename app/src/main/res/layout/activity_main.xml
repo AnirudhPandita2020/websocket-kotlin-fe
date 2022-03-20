@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/testing_fastapi_websocket_chat"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin = "20dp"/>
+
+    <EditText
+        android:id="@+id/roomno"
+        android:layout_below="@id/heading"
+        android:layout_width="match_parent"
+        android:layout_margin ="20dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_room_no"
+        android:inputType="number"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/userid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_your_username"
+        android:layout_below="@id/roomno"
+        android:layout_margin = "20dp"
+        android:autofillHints=""
+        android:inputType="text" />
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userid"
+        android:layout_centerHorizontal="true"
+        android:text="@string/connect"/>
+
+</RelativeLayout>

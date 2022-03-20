@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">websocket</string>
+    <string name="testing_fastapi_websocket_chat">Testing fastapi websocket chat</string>
+    <string name="enter_room_no">enter room no</string>
+    <string name="connect">Connect</string>
+    <string name="message">message</string>
+    <string name="send">Send</string>
+    <string name="add_your_username">add your username</string>
+</resources>
